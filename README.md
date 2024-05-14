@@ -20,13 +20,11 @@ Inertia allows you to create fully client-side rendered, single-page apps, witho
 
 Inertia has no client-side routing, nor does it require an API. Simply build controllers and page views like you've always done! Inertia works great with any backend framework, but it's fine-tuned for Laravel.
 
-## Learning Laravel
+## Learning Laravel Inertia React (client-side)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Once you have your server-side framework configured, you then need to setup your client-side framework. Inertia currently provides support for React, Vue, and Svelte.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+You can see the Laravel Inertia tutorial on the official Inertiajs website and also via video on <a href="https://www.youtube.com/watch?v=HkCQVhWtexQ&list=PLxzARwISlmzgO74VI9Yva7sxbUhJJ56yW&ab_channel=WEBDEVIndo">YouTube</a>.
 
 ## Laravel Sponsors
 
