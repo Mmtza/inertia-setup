@@ -24,11 +24,7 @@ Inertia has no client-side routing, nor does it require an API. Simply build con
 
 Once you have your server-side framework configured, you then need to setup your client-side framework. Inertia currently provides support for React, Vue, and Svelte.
 
-You can see the Laravel Inertia tutorial on the official Inertiajs website and also via video on <a href="https://www.youtube.com/watch?v=HkCQVhWtexQ&list=PLxzARwISlmzgO74VI9Yva7sxbUhJJ56yW&ab_channel=WEBDEVIndo">YouTube</a>.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+You can see the Laravel Inertia tutorial on the <a href="https://www.inertiajs.com">official Inertiajs website</a> and also via video on <a href="https://www.youtube.com/watch?v=HkCQVhWtexQ&list=PLxzARwISlmzgO74VI9Yva7sxbUhJJ56yW&ab_channel=WEBDEVIndo">YouTube</a>.
 
 ### Premium Partners
 
@@ -46,13 +42,58 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
 
-## Contributing
+# Requirement
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+-   PHP `>= v8.2`
+-   Composer `>= v2.x`
+-   Node.js `>= v16.x`
+-   PostgreSQL `v14.x`
 
-## Code of Conduct
+## Development
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1 - Clone the project
+
+```bash
+git clone https://github.com/Mmtza/inertia-portofolio.git
+```
+
+2 - Go to the project directory
+
+```bash
+cd inertia-portofolio
+```
+
+3 - Install dependencies (NPM recommended)
+
+```bash
+composer install
+npm install
+```
+
+4 - Copy .env file
+
+```bash
+cp .env.example .env
+```
+
+5 - Generate Artisan Key
+
+```bash
+php artisan key:generate
+```
+
+6 - Create Database & Run Migration ( create db `my_porto` firstly )
+
+```bash
+php artisan migrate --seed
+```
+
+7 - Start Dev
+
+```bash
+php artisan serve
+npm run dev
+```
 
 ## Security Vulnerabilities
 
