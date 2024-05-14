@@ -1,10 +1,15 @@
 <p align="center"><a href="https://inertiajs.com" target="_blank"><img src="https://github.com/inertiajs/.github/blob/master/LOGO.png" alt="Inertia Logo"></a></p>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://github.com/inertiajs/inertia-laravel/releases">
+    <img src="https://img.shields.io/github/release/inertiajs/inertia-laravel.svg?style=flat-square" alt="Latest Version">
+  </a>
+  <a href="https://github.com/inertiajs/inertia-laravel/actions/workflows/tests.yml?query=workflow%3Atests+branch%3Amaster">
+    <img src="https://github.com/inertiajs/inertia-laravel/actions/workflows/tests.yml/badge.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="https://packagist.org/packages/inertiajs/inertia-laravel">
+    <img src="https://img.shields.io/packagist/dt/inertiajs/inertia-laravel.svg?style=flat-square" alt="Total Downloads">
+  </a>
 </p>
 
 ## About Laravel
