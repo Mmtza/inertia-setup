@@ -48,7 +48,7 @@ git clone https://github.com/Mmtza/inertia-portofolio.git
 2 - Go to the project directory
 
 ```bash
-cd inertia-portofolio
+cd inertia-setup
 ```
 
 3 - Install dependencies (NPM recommended)
@@ -70,7 +70,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-6 - Create Database & Run Migration ( create db `my_porto` firstly )
+6 - Create Database & Run Migration ( create db `laravel_inertia` firstly )
 
 ```bash
 php artisan migrate --seed
